@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: sans-serif 18pt Arial;
+
+}
+
+header {
+    background-color: grey;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    font-size:4.5rem;
+    color: white;
+    
+}
+
+nav > ul {
+    list-style-type: none;
+}
+
+nav > ul > li {
+    display: inline;
+    margin: 20px 20px 0 0;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+}
+
+#produtos {
+    display: flex;
+    gap: 20px;
+}
+
+.produto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.404);
+    text-align: center;
+    width: 200px;
+}
+
+.produto > img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.produto > h2 {
+    font-size: 1.25rem;
+    margin: 10px 0;
+}
+
+.produto > p {
+    margin: 5px 0;
+}
+
+.preco {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(4, 231, 4);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+button:hover {
+    background-color: green;
+}
+
+#carrinho {
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 10 10px rgba(0, 0, 0, 0.336);
+}
+
+#carrinho > ul {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+}
