@@ -47,6 +47,7 @@ nav > ul > li > a {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.404);
     text-align: center;
     width: 200px;
+    margin: auto;
 }
 
 .produto > img {
